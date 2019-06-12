@@ -652,7 +652,7 @@ export default {
     },
     rawLeft (newLeft) {
       const bounds = this.bounds
-      const aspectFactor = this.aspectFactor
+      const aspectFactor = this.w / this.h
       const lockAspectRatio = this.lockAspectRatio
       const left = this.left
       const top = this.top
@@ -671,7 +671,7 @@ export default {
     },
     rawRight (newRight) {
       const bounds = this.bounds
-      const aspectFactor = this.aspectFactor
+      const aspectFactor = this.w / this.h
       const lockAspectRatio = this.lockAspectRatio
       const right = this.right
       const bottom = this.bottom
@@ -690,7 +690,7 @@ export default {
     },
     rawTop (newTop) {
       const bounds = this.bounds
-      const aspectFactor = this.aspectFactor
+      const aspectFactor = this.w / this.h
       const lockAspectRatio = this.lockAspectRatio
       const left = this.left
       const top = this.top
@@ -709,7 +709,7 @@ export default {
     },
     rawBottom (newBottom) {
       const bounds = this.bounds
-      const aspectFactor = this.aspectFactor
+      const aspectFactor = this.w / this.h
       const lockAspectRatio = this.lockAspectRatio
       const right = this.right
       const bottom = this.bottom
