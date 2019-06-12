@@ -426,7 +426,7 @@ export default {
       let maxW = this.maxW
       let maxH = this.maxH
 
-      const aspectFactor = this.aspectFactor
+      const aspectFactor = this.w / this.h
       const [gridX, gridY] = this.grid
       const width = this.width
       const height = this.height
